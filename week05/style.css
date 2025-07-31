@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 1.2em;
+  color: #333;
+  background: #fff;
+  line-height: 1.5;
+}
+
+
+main {
+  margin: 2rem auto 0;
+  width: 700px;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: #191970;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: Merriweather, Georgia, serif;
+}
+
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  background-color: #f8f8fa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+legend {
+  color: #191970;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 0.5rem 1rem 0.5rem 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  width: auto;
+}
+
+
+.form-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.1rem;
+}
+
+label {
+  width: 220px;
+  text-align: right;
+  padding-right: 1rem;
+  font-family: Roboto, Arial, sans-serif;
+  color: #333;
+  font-size: 1.08em;
+}
+
+input, select, textarea {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  font-family: Roboto, Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  min-width: 0;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  flex: none;
+}
+
+button {
+  display: block;
+  margin: 2rem auto 0 auto;
+  background-color: #00008b;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 150px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10);
+  font-family: Roboto, Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #191970;
+}
+
+
+footer {
+  font-size: 0.9em;
+  color: #aaa;
+  border-top: 1px solid #ddd;
+  padding: 0.5rem 0;
+  margin: 1.5rem auto 0 auto;
+  width: 700px;
+  text-align: center;
+  background: none;
+}
