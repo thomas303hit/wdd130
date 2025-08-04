@@ -231,10 +231,6 @@ p {
     overflow: hidden;
 }
 
-.map-container iframe {
-    border: 0;
-}
-
 .employee-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
